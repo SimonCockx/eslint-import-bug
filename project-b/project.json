@@ -1,0 +1,7 @@
+{
+  "name": "project-b",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "project-b/src",
+  "projectType": "library",
+  "tags": []
+}

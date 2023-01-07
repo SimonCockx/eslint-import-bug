@@ -1,0 +1,16 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "paths": {
+      "@importbug/b": ["project-b/src/index.ts"]
+    },
+    "target": "ES2017",
+    "module": "esnext",
+    "lib": ["ES2020"],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "types": ["validator", "jest", "node"],
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "tmp"]
+}
