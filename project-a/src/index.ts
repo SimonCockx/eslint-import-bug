@@ -1,3 +1,3 @@
-import { b } from "@importbug/b";
 
-console.log(b);
+  import { b } from "@importbug/b";
+

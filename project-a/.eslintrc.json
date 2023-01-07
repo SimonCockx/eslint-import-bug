@@ -10,17 +10,18 @@
   },
   "settings": {
     "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"],
-        "moduleDirectory": ["node_modules", "."]
-      },
       "typescript": {
-        "alwaysTryTypes": true
+        "alwaysTryTypes": true,
+        "project": "tsconfig.lib.ts"
       }
     },
     "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
+      "@typescript-eslint/parser": [
+        ".ts", ".tsx"
+      ]
     }
   },
-  "extends": ["plugin:import/typescript", "plugin:import/recommended"]
+  "extends": [
+    "plugin:import/typescript", "plugin:import/recommended"
+  ]
 }
