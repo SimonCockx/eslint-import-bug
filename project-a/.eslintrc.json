@@ -12,7 +12,8 @@
     "import/resolver": {
       "typescript": {
         "alwaysTryTypes": true,
-        "project": "tsconfig.lib.ts"
+        "project": "tsconfig.lib.ts",
+        "extensions": [".ts"]
       }
     },
     "import/parsers": {

@@ -1,3 +1,3 @@
+import { b } from "@importbug/b";
 
-  import { b } from "@importbug/b";
-
+b;
